@@ -25,7 +25,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', '0)_(@8xc4gs@*(l3xm)ncyg!&6rb@s
 # SECURITY WARNING: don't run with debug turned on in production!
 #DEBUG = True
 DEBUG =False
-ALLOWED_HOSTS = [
+ALLOWED_HOSTS = [ 'https://matcraft.herokuapp.com/'
 
 ]
 

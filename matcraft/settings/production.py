@@ -26,7 +26,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', '0)_(@8xc4gs@*(l3xm)ncyg!&6rb@s
 #DEBUG = True
 DEBUG =False
 ALLOWED_HOSTS = [
-
+'https://matcraft.herokuapp.com/'
 ]
 
 
@@ -129,7 +129,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
-CURRENT_URL='http://localhost:8000/'
+CURRENT_URL='https://matcraft.herokuapp.com/'
 
 EMAIL_BACKEND='django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST='smtp@gmail.com'
